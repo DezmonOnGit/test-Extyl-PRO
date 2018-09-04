@@ -1,0 +1,91 @@
+@media (max-width: 1170px)
+	.header__top
+		justify-content: space-around
+
+	.logo
+		margin-bottom: 20px
+
+	.phones-wrapper
+		margin-bottom: 20px
+
+	.basket
+		padding-top: 50px
+
+	.input__search
+		width: 100%
+		margin-right: 0
+		margin-bottom: 10px
+
+	.menu
+		position: absolute
+		transform: scale(0)
+		transition: all .3s
+
+	.menu_active
+		display: block
+		width: 100vw
+		height: calc(100vh - 50px)
+		padding-top: 50px
+		overflow-y: scroll 
+		position: fixed
+		top: 0
+		left: 0
+		background: url(../img/burger-menu-bg.jpg)
+		background-size: cover
+		z-index: 99
+		transform: scale(1)
+
+	.menu-burger
+		display: -webkit-flex
+		display: -moz-flex
+		display: -ms-flex
+		display: -o-flex
+		display: flex
+		width: 85px
+		margin: 0 auto
+		margin-bottom: 30px
+
+
+@media (max-width: 750px)
+	.header__top
+		justify-content: center
+
+	.logo
+		margin-bottom: 20px
+
+	.phones-wrapper
+		padding-bottom: 20px
+		margin-bottom: 20px
+		display: -webkit-flex
+		display: -moz-flex
+		display: -ms-flex
+		display: -o-flex
+		display: flex
+		flex-direction: column
+
+	.phones
+		width: 290px
+		margin-bottom: 30px
+
+	.authorization
+		width: 290px
+		display: -webkit-flex
+		display: -moz-flex
+		display: -ms-flex
+		display: -o-flex
+		display: flex
+		flex-direction: column
+
+	.sign-in__text
+		font-size: 13px
+
+	.sign-in__icon
+		left: 60px
+
+	.form__header-bottom
+		display: -webkit-flex
+		display: -moz-flex
+		display: -ms-flex
+		display: -o-flex
+		display: flex
+		flex-direction: column
